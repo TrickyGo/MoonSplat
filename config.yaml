@@ -1,0 +1,13 @@
+data_configs:
+  frames_path: "datasets/ScanNetv2/scans/scene0040_00/sensor_data"
+  results_path: "results/ScanNetv2/scans/scene0040_00/sensor_data"
+  frames_focal_normalized: 0.9035  # For ScanNetv2, change for other datasets
+
+method_configs:
+  keyframe_density_thresh: 0.5
+  loop_closure: True
+  loop_closure_stride: 10
+  viz: True
+  color_refinement_iter: 100
+  mapping_itr_num: 20
+  window_size: 4
